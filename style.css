@@ -1,0 +1,17 @@
+h3{
+    font-size: 29.5px !important;
+    width: 45%;
+    letter-spacing: 10px; 
+}
+.btn-success:hover{
+    background-color: lightgreen;
+}
+canvas{
+    animation-name: Hello;
+    animation-duration: 2.45s;
+    animation-iteration-count: infinite;
+}
+@keyframes Hello{
+    from {box-shadow: 1.5px 1.5px 36px royalblue}
+    to {box-shadow: 1.5px 1.5px 36px rgb(28, 119, 3)}
+}
